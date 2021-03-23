@@ -1,0 +1,24 @@
+#contact {
+    background: #24527e;
+    color: #effaff;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 20%);
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #contact .contact-inner {
+    padding-top: 150px;
+  }
+
+  #contact .contact-inner .col-12 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+  }
+  
+  #contact .contact-inner .col-12 .col-left form .contact-email {
+    grid-area: email;
+  }

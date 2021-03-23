@@ -1,0 +1,20 @@
+/* style rules for about section */
+#about {
+    z-index: -1;
+    background: #f3eff5;
+    color: #1f333b;
+    height: auto;
+    margin-top: 2rem;
+  }
+  #about .about-inner .about-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+  #about .about-inner .about-grid .about-left {
+    padding-right: 2rem;
+  }
+  
+  #about img {
+    width: 100%;
+  }
